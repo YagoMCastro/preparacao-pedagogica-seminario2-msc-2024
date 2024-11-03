@@ -108,7 +108,7 @@ Sinta-se à vontade para tirar capturas de tela/compartilhar/reutilizar esta apr
 
 3. **Apresentação (10 minutos)**
     - Como as ondas sísmicas podem ser usadas para detectar diferentes camadas da Terra.
-    - [Tremilique](https://github.com/leouieda/tremelique)
+    - [Tremelique](https://github.com/leouieda/tremelique)
 4. **Exercícios em sala (10 minutos)**
     - Cálculos de tempos de chegada de ondas em diferentes meios usando exemplos simplificados.
 
@@ -119,8 +119,8 @@ Sinta-se à vontade para tirar capturas de tela/compartilhar/reutilizar esta apr
 5. **Exercícios para casa (slide da aula e Moodle)**
     - Exercícios relacionados aos conteúdos abordados em sala de aula
     - **Desafios**: 
-        - Utilizar [Tremilique](https://github.com/leouieda/tremelique) para representar um sistema com propriedades específicas 
-        - Representar um "terremoto" utilizando [Tremilique](https://github.com/leouieda/tremelique) 
+        - Utilizar [Tremelique](https://github.com/leouieda/tremelique) para representar um sistema com propriedades específicas 
+        - Representar um "terremoto" utilizando [Tremelique](https://github.com/leouieda/tremelique) 
 
 ===============================================================================
 
@@ -279,303 +279,45 @@ pwave.animate(every=10, embed=True, dpi=50, cutoff=0.5)
 </div>
 
 
+===============================================================================
 
-<div class="r-stretch centered">
-<div>
+# Referências Pedagógicas
 
-# Even more facts!
+- **Teoria da Aprendizagem Significativa**: Aplicação da teoria de David Ausubel para conectar novos conceitos de ondas sísmicas aos conhecimentos prévios sobre física de ondas.
+- **Aprendizagem Ativa**: Uso de demonstrações práticas para facilitar a compreensão, apoiado nas ideias de John Dewey.
 
-About many different things.
-
-</div>
-</div>
-<div class="footnote-left">
-
-Left aligned footnote.
-Use `centered` on the `div` above to vertically center content.
-<br>
-Need to put another `div` inside of it as well.
-
-</div>
 
 ===============================================================================
 
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-color="#000000" -->
-
-<div class="r-stretch">
-</div>
-<div class="footnote-center dark">
-
-Centered footnote with a dark background on a slide with a background.
-<br>
-Set the size to `contain` to make sure aspect ratios are preserved and the
-background isn't cropped.
-<br>
-It's a good idea to add alt-text to this footnote if the background is
-important.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: data-background-video="assets/brasil-sao-paulo-rio.mp4" data-background-size="contain" data-background-color="#000000" -->
-
-<div class="r-stretch">
-</div>
-<div class="footnote">
-
-This is how you use a video background.
-The video auto starts when flipping to this slide.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: class="slide-transition" -->
-
-# A transition slide <br> with a large title
-
-...and some text.
-
-===============================================================================
-
-# Maths
-
-This is an inline $\int_a^b x^2 dx$ and $\delta g = g - \gamma$:
-
-`\[ \int_a^b x^2 dx \]`
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#000000" -->
-
-<div class="quote">
-
-Big quote message with a faded background image.
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#ffffff" -->
-
-<div class="quote dark">
-
-Light fade of the background with a dark quote.
-
-</div>
-
-===============================================================================
-
-# Two column layout
-
-<div class="row">
-<div class="col">
-
-## Theory
-
-Explain something here.
-This is how you make a FontAwesome list:
-
-<ul class="fa-ul">
-
-<li>
-<span class="fa-li"> <i class="fa fa-lightbulb fa-fw"></i> </span>
-Make a list with
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-file-alt fa-fw"></i> </span>
-some awesome icons
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-users fa-fw"></i> </span>
-instead of bullet points
-</li>
-
-</ul>
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Some text explaining the figure.
-Maybe even a bit of maths like $\gamma$.
-
-</div>
-</div>
-
-<div class="footnote">
-
-Good place for a citation or image credit.
-This one is by Leonardo Uieda (CC-BY).
-
-</div>
-
-===============================================================================
-
-<div class="r-stretch centered">
-<div>
-
-# Multiple columns
-
-Place as many `col`s as you want. They will have the same size.
-
-<div class="row">
-<div class="col">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/nbr_thomas_fire.jpg">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-</div>
-
-</div>
-</div>
-<div class="footnote">
-
-Images by Leonardo Uieda (CC-BY).
-
-</div>
-
-===============================================================================
-
-# This one has columns of different size
-
-<div class="row">
-<div class="col-large tiny">
-
-<img style="width: 95%;" src="assets/nbr_thomas_fire.jpg">
-
-This way the image is larger on the screen. Use it for maps or main figures.
-
-</div>
-<div class="col small">
-
-Explain what is shown on the image.
-Use the `small` class to adjust font size.
-
-Maybe include some maths:
-
-$ D\dfrac{\partial^4 w}{\partial x^4} = q - g (\rho_m - \rho_w) w $
-
-</div>
-</div>
-
-===============================================================================
-
-<div class="row">
-<div class="col tiny">
-
-<img src="assets/japan-trench-globalcmt.png">
-
-This way the image is narrow so it should be in a smaller column.
-
-</div>
-<div class="col-medium">
-
-# Column sizes
-
-Columns come in 3 sizes:
-
-1. `col`
-1. `col-medium`
-1. `col-large`
-
-These are more proportions than fixed sizes.
-
-</div>
-</div>
-
-===============================================================================
-
-# Code
-
-Example of using PyGMT to make a map:
-
-<div class="row">
-<div class="col-large fragment small">
-
-This code:
-
-```python
-import pygmt
-
-# Load built-in topography data
-grid = pygmt.datasets.load_earth_relief()
-
-fig = pygmt.Figure()
-# Pseudo-color map of topography
-fig.basemap(
-    region=[-150, -30, -60, 60],
-    projection="I-90/6i",
-    frame=True,
-)
-fig.grdimage(grid=grid, cmap="viridis")
-# Mask continents in dark grey
-fig.coast(land="#333333")
-# Display in Jupyter or pop-up window
-fig.show()
-```
-</div>
-<div class="col-medium fragment small">
-
-Makes this map 👇
-
-<img style="width: 90%" src="assets/pygmt-example.png">
-
-</div>
-
-===============================================================================
-
-<!-- .slide: class="slide-contact" data-background-image="assets/contact-slide.svg" data-background-size="contain" data-background-color="#000000" -->
+<!-- .slide: data-background-color="#262626" data-background-size="contain" -->
 
 <div class="r-stretch centered">
 <div>
 
 <i class="fas fa-comments"></i>
 <br>
-Contact:
-<a href="https://www.leouieda.com">www.leouieda.com</a>
+Contato:
+<a href="yagomcastro@usp.br">yagomcastro@usp.br</a>
 
 <i class="fab fa-github"></i>
 <br>
-Source code for this presentation:
+Código-fonte para esta apresentação:
 <br>
-[github.com/leouieda/talk-template](https://github.com/leouieda/talk-template)
-
+[github.com/YagoMCastro/preparacao-pedagogica-seminario2-msc-2024/](https://github.com/YagoMCastro/preparacao-pedagogica-seminario2-msc-2024/)
 <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
 <br>
-Unless otherwise noted,
-the contents of this presentation are
-licensed under the
+<br>
+Tremelique:
+<br>
+[https://github.com/leouieda/tremelique](https://github.com/leouieda/tremelique)
+
+<br>
+
+Salvo indicação em contrário,
+o conteúdo desta apresentação está
+licenciado sob a
 <br>
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 </div>
-</div>
-<div class="footnote-left dark">
-
-The background image is a Landsat 9 scene of the city of São Paulo, Brazil,
-showing the USP campus in the center.
-
 </div>
