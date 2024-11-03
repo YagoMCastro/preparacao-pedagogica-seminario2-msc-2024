@@ -124,6 +124,21 @@ Sinta-se à vontade para tirar capturas de tela/compartilhar/reutilizar esta apr
 
 ===============================================================================
 
+# Propagação de ondas P e S
+
+
+<iframe  width="860" height="615" src="https://www.youtube.com/embed/2rYjlVPU9U4?si=8fZzRzOA7suyE9tH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="860" height="615" src="https://www.youtube.com/embed/en4HptC0mQ4?si=OdREj9k6w64bi0Rx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+===============================================================================
+
+# Propagação de ondas Love e Rayleigh
+
+<iframe width="860" height="615"  src="https://www.youtube.com/embed/t7wJu0Kts7w?si=0pa12uo0d42ZVmqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="860" height="615"  src="https://www.youtube.com/embed/6yXgfYHAS7c?si=lXhPp5DKIyJTUFVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+===============================================================================
+
 # Tremelique
 
 <div class="row">
@@ -264,7 +279,7 @@ pwave.animate(every=10, embed=True, dpi=50, cutoff=0.5)
 </div>
 
 
-===============================================================================
+
 <div class="r-stretch centered">
 <div>
 
