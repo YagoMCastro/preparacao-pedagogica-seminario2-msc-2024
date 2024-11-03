@@ -54,37 +54,73 @@ Sinta-se à vontade para tirar capturas de tela/compartilhar/reutilizar esta apr
 
 ===============================================================================
 
-# Heading 1
+# Objetivos da Aula
 
-This is a slide with some content.
-
-## Heading 2
-
-* Bla bla
-* Bla bla
-
-### Heading 3
-
-Meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh
-meh meh.
+- Compreender os conceitos fundamentais de sísmica e a **propagação de ondas sísmicas em diferentes meios**.
+- Classificar as ondas sísmicas em ondas **P, S e de superfície**, identificando suas principais características e comportamentos.
+- Relacionar a propagação de ondas sísmicas com **aplicações práticas na exploração geofísica**, como a análise de estruturas da subsuperfície e a detecção de recursos naturais.
+- Preparar os alunos para as próximas aulas sobre **aquisição e processamento de dados sísmicos**, conectando teoria à prática.
 
 ===============================================================================
 
-<div class="r-stretch">
+# Contextualização no plano semestral
 
-# Some facts
+## Programa da Disciplina
 
-About a certain topic.
+- Apresentada na **semana 11**
+- Primeira aula sobre **sísmica**
+- Marca a transição do estudo de **métodos potenciais** (gravimetria e magnetometria) para os **métodos sísmicos**
 
-</div>
-<div class="footnote">
+===============================================================================
 
-This is a little footnote.
-Use it to add notes, citations, [links](https://www.leouieda.com/), etc.
-<br>
-Notice how the `div` above uses `r-stretch` to push this note to the bottom.
 
-</div>
+# Contextualização no plano semestral
+
+## Base Prévia 
+- **Propriedades físicas** das rochas
+- **Estrutura interna** da Terra
+- Fundamentos da **aquisição e processamento de dados geofísicos** aplicados a gravimetria e magnetometria
+
+===============================================================================
+
+# Contextualização no plano semestral
+## Continuidade 
+- **Aquisição** de dados sísmicos
+- Aulas sobre **processamento de dados**
+- **Integração** com outros métodos geofísicos
+
+===============================================================================
+
+# Etapas da Aula e Recursos Utilizados
+
+1. **Abertura (10 minutos)**
+    - **Discussão Guiada**: Qual é a importância da sísmica na geofísica moderna? (7 minutos)
+    - **Apresentação em vídeo**: [3-component Seismograms—Capturing the motion of an earthquake. (Educational)](https://www.youtube.com/watch?v=Za_22xo7ZQQ) (3 minutos)
+2. **Fundamentos Teóricos (20 minutos)**
+    - **Tipos de Ondas Sísmicas**:
+        - **Ondas P (primárias)**: compressão e propagação rápida. $V_p = \sqrt{\frac{K + \frac{4}{3} \mu}{\rho}}$
+        - **Ondas S (secundárias)**: cisalhamento e propagação mais lenta. $V_s = \sqrt{\frac{\mu}{\rho}}$
+        - **Ondas de Superfície**: ondas Love e Rayleigh.
+
+===============================================================================
+
+# Etapas da Aula e Recursos Utilizados
+
+3. **Apresentação (10 minutos)**
+    - Como as ondas sísmicas podem ser usadas para detectar diferentes camadas da Terra.
+    - [Tremilique](https://github.com/leouieda/tremelique)
+4. **Exercícios em sala (10 minutos)**
+    - Cálculos de tempos de chegada de ondas em diferentes meios usando exemplos simplificados.
+
+===============================================================================
+
+# Etapas da Aula e Recursos Utilizados
+
+5. **Exercícios para casa (slide da aula e Moodle)**
+    - Exercícios relacionados aos conteúdos abordados em sala de aula
+    - **Desafios**: 
+        - Utilizar [Tremilique](https://github.com/leouieda/tremelique) para representar um sistema com propriedades específicas 
+        - Representar um "terremoto" utilizando [Tremilique](https://github.com/leouieda/tremelique) 
 
 ===============================================================================
 
