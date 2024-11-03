@@ -5,20 +5,21 @@ The reveal.js configuration can be found in index.html
 -------------------------------------------------------------------------------
 -->
 
-<!-- .slide: class="slide-title" data-background-image="assets/title-slide.svg" data-background-color="#000000" data-background-size="contain" -->
+
+<!-- .slide: class="slide-title" data-background-color="#262626" data-background-size="contain" -->
 
 <!-- Place the content at the bottom of the slide -->
 <div class="r-stretch">
 </div>
 
 <h1 id="talk-title">
-  A long talk title that may <br>be kind of boring and <br>more than one line long
+  Apresentação do Plano de Aula
 </h1>
+
+## Introdução à Sísmica (Teoria)
+
 <p id="talk-authors">
-  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>,
-  Author Two,
-  and
-  Author Three
+  <a>Yago M Castro</a>
 </p>
 
 <!-- Place location and date side-by-side with affiliation logos -->
@@ -26,13 +27,13 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-XX Month 202X
+05 de Novembro de 2024
 <span style="margin: 0 20px"></span>
-Event/host of the talk
+Atividade 10 | Preparação Pedagógica
 
 <!-- Permission to reuse and CC-BY license logo -->
 <i class="fa fa-camera" style="margin: 0 10px 0 0"></i>
-Feel free to screenshot/share/reuse this presentation
+Sinta-se à vontade para tirar capturas de tela/compartilhar/reutilizar esta apresentação
 <span style="margin: 0 20px"></span>
 <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by" style="margin: 0 10px 0 2px"></i>CC-BY 4.0 License</a>
 
