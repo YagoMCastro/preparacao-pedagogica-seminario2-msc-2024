@@ -124,6 +124,147 @@ Sinta-se à vontade para tirar capturas de tela/compartilhar/reutilizar esta apr
 
 ===============================================================================
 
+# Tremelique
+
+<div class="row">
+<div class="col-small small">
+
+```python
+import tremelique as tr
+import numpy as np
+
+shape = (300, 400)
+spacing = 5
+extent = [0, shape[1]*spacing, shape[0]*spacing, 0]
+velocity = np.zeros(shape, dtype='float32') + 1500  # m/s
+density = np.zeros(shape, dtype='float32') + 1000  # kg/m³
+
+pwave = tr.Acoustic(velocity, density, spacing=spacing)
+pwave.add_point_source((0, shape[1]//2), tr.RickerWavelet(1, 60))
+pwave.run(800)
+pwave.animate(every=10, embed=True, dpi=50, cutoff=0.5)
+```
+</div>
+<div class="col-large small">
+
+<video  controls>
+  <source src="assets/simulation1.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+
+===============================================================================
+
+
+# Tremelique
+
+<div class="row">
+<div class="col-small">
+
+```python
+import tremelique as tr
+import numpy as np
+
+shape = (300, 400)
+spacing = 5
+extent = [0, shape[1]*spacing, shape[0]*spacing, 0]
+velocity = np.zeros(shape, dtype='float32') + 1500  # m/s
+density = np.zeros(shape, dtype='float32') + 1000  # kg/m³
+
+pwave = tr.Acoustic(velocity, density, spacing=spacing)
+pwave.add_point_source((0, shape[1]//2), tr.RickerWavelet(1, 60))
+pwave.add_point_source((0, 50), tr.RickerWavelet(1, 60))
+pwave.add_point_source((0, 350), tr.RickerWavelet(1, 60))
+pwave.run(800)
+pwave.animate(every=10, embed=True, dpi=50, cutoff=0.5)
+```
+</div>
+<div class="col-large">
+
+<video  controls>
+  <source src="assets/simulation2.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+
+===============================================================================
+
+
+# Tremelique
+
+<div class="row">
+<div class="col-small small">
+
+```python
+import tremelique as tr
+import numpy as np
+
+shape = (300, 400)
+spacing = 5
+extent = [0, shape[1]*spacing, shape[0]*spacing, 0]
+velocity = np.zeros(shape, dtype='float32') + 1500  # m/s
+density = np.zeros(shape, dtype='float32') + 1000  # kg/m³
+velocity[50:] = 3000
+density[50:] = 2000
+velocity[70:] = 3500
+density[70:] = 4500
+
+pwave = tr.Acoustic(velocity, density, spacing=spacing)
+pwave.add_point_source((0, shape[1]//2), tr.RickerWavelet(1, 20))
+pwave.add_point_source((0, 50), tr.RickerWavelet(1, 20))
+pwave.add_point_source((0, 350), tr.RickerWavelet(1, 20))
+pwave.run(1000)
+pwave.animate(every=10, embed=True, dpi=50, cutoff=0.5)
+```
+</div>
+<div class="col-large">
+
+<video  controls>
+  <source src="assets/simulation3.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+
+===============================================================================
+
+# Tremelique
+
+<div class="row">
+<div class="col-small">
+
+```python
+import tremelique as tr
+import numpy as np
+
+shape = (300, 400)
+spacing = 5
+extent = [0, shape[1]*spacing, shape[0]*spacing, 0]
+velocity = np.zeros(shape, dtype='float32') + 1500  # m/s
+density = np.zeros(shape, dtype='float32') + 1000  # kg/m³
+
+pwave = tr.Acoustic(velocity, density, spacing=spacing)
+pwave.add_point_source((100, 200), tr.RickerWavelet(1, 60))
+pwave.run(300)
+pwave.animate(every=10, embed=True, dpi=50, cutoff=0.5)
+```
+</div>
+<div class="col-large">
+
+<video  controls>
+  <source src="assets/simulation4.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+
+===============================================================================
 <div class="r-stretch centered">
 <div>
 
