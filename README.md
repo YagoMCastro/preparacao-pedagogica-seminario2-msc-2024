@@ -1,18 +1,16 @@
-# Template for my reveal.js based slides
+# Class seminar presentation using Reveal.js 
+**Event**: Class seminar
 
-This is a template I use to make [reveal.js](https://revealjs.com/) slides
-for talks and lectures.
-It adds some custom styling and CSS classes for making columns, footnotes,
-and more.
+**Presenter**: Yago Moreira Castro
 
-**Preview:** https://www.leouieda.com/talk-template
+**Preview:** [https://yagomcastro.github.io/preparacao-pedagogica-seminario2-msc-2024/](https://yagomcastro.github.io/preparacao-pedagogica-seminario2-msc-2024/)
 
-> The original inspiration is this template by Matthew Turk:
-> https://github.com/matthewturk/mjt-talk-template
+> A template by Leonardo Uieda was used to create this presentation:
+> https://github.com/leouieda/talk-template
+s
+## Using as template
 
-## Using
-
-1. Click on the "Use this template" button or go to
+1. Go to
    https://github.com/leouieda/talk-template/generate to create a
    new repository for your slides.
 1. Change the HTML title (the one that appears on the browser tab)
